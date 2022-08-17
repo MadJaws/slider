@@ -1,0 +1,19 @@
+img.slide {
+  width: 400px;
+}
+div#slider {
+  display: flex;
+  width: 400px;
+  overflow: hidden;
+}
+span {
+  position: absolute;
+  text-align: center;
+  bottom: 10px;
+  font-size: 12px;
+  width: 100%;
+  color: white;
+}
+div.imgWrapper {
+  position: relative;
+}
