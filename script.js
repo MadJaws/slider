@@ -34,8 +34,13 @@ class Slider {
       container.appendChild(imgWrapper);
     }
   }
+
+  buttonBack() {
+    let buttonBack = document.getElementById(back);
+    onclick.back = console.log;
+  }
 }
-// kkkkk
+
 new Slider(
   slides, // слайды
   'slider', // id для вставки в html
